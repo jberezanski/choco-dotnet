@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>dotnetcore</id>
+    <title>dotnetcore (Install)</title>
+    <version>1.0.0.001598</version>
+    <authors>Microsoft</authors>
+    <owners>qbik</owners>
+    <summary>.Net Core CLI (dotnet.exe)</summary>
+    <description>The new .Net Core CLI
+    </description>
+    <projectUrl>http://dotnet.github.io/</projectUrl>
+    <packageSourceUrl>https://github.com/qbikez/choco-dotnet.git</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>dotnetcore Microsoft .net dotnet core</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/dotnet/core/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/dotnetcore.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
