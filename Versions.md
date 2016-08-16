@@ -1,0 +1,1 @@
+latest rel version: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/rel-1.0.0/latest.version
